@@ -1,0 +1,12 @@
+escribir("Ingrese un numero")
+n=leer()
+si(n%3==0)
+    escribir(n.." es multiplo de 3")
+sino
+    escribir(n.." no es multiplo de 3")
+fin
+si(n%15==0)
+    escribir(n.." es multiplo de 15")
+sino
+    escribir(n.." no es multiplo de 15")
+fin

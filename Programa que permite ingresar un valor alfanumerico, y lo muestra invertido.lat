@@ -1,0 +1,12 @@
+escribir("Ingrese una palabra")
+a = leer()
+i = 0
+b = cadena.longitud (a) -1
+    mientras (i<b)
+        aux = a[i]
+        a[i] = a[b]
+        a[b] = aux
+        i++
+    b--
+fin
+escribir(a)

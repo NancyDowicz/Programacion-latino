@@ -1,0 +1,11 @@
+escribir("Ingrese una oracion")
+a = leer()
+contador=0
+desde(i=0;i<cadena.longitud(a);i++)
+b=cadena.subcadena(a,i,1)
+    si(b==" ")
+    contador++
+    fin
+fin
+palabras=contador+1
+escribir("La oracion contiene "..palabras.." palabras")

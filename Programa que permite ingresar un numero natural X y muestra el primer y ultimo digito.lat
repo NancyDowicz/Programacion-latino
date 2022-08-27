@@ -1,0 +1,9 @@
+escribir("Ingrese un numero natural")
+x = leer()
+ultimoDigito=x%10
+mientras(x>0)
+    primerDigito=x%10
+    x=mate.trunc(x/10)
+fin
+escribir("Primer digito "..primerDigito)
+escribir("Ultimo digito "..ultimoDigito)

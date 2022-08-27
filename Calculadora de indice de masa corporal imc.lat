@@ -1,0 +1,17 @@
+escribir("Calculadora de indice de masa corporal(imc)")
+escribir("Ingrese su peso en kg")
+kg=leer()
+escribir("Ingrese su altura")
+altura=leer()
+calculo=altura^2
+imc=kg/calculo
+escribir("Su indice es "..imc)
+si imc<18.5
+    escribir("Su peso es inferior a lo normal")
+osi imc>18.5 && imc<25
+    escribir("Su peso es saludable")
+osi imc>=25 && imc<30
+    escribir("Su peso es superior a lo normal")
+sino
+    escribir("Obesidad")
+fin
